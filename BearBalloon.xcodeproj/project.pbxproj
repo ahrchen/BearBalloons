@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE5E2B762B5711EC00DCC639 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = EE5E2B752B5711EC00DCC639 /* RealityKitContent */; };
+		EE5E2B782B5711EC00DCC639 /* BearBalloonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5E2B772B5711EC00DCC639 /* BearBalloonApp.swift */; };
+		EE5E2B7A2B5711EC00DCC639 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5E2B792B5711EC00DCC639 /* ContentView.swift */; };
+		EE5E2B7C2B5711EC00DCC639 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5E2B7B2B5711EC00DCC639 /* ImmersiveView.swift */; };
+		EE5E2B7E2B5711ED00DCC639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE5E2B7D2B5711ED00DCC639 /* Assets.xcassets */; };
+		EE5E2B812B5711ED00DCC639 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE5E2B802B5711ED00DCC639 /* Preview Assets.xcassets */; };
+		EE5E2B892B57133500DCC639 /* Bear_On_Balloons.usdz in Resources */ = {isa = PBXBuildFile; fileRef = EE5E2B882B57133500DCC639 /* Bear_On_Balloons.usdz */; };
+		EE5E2B8D2B571D6500DCC639 /* studio.skybox in Resources */ = {isa = PBXBuildFile; fileRef = EE5E2B8C2B571D6500DCC639 /* studio.skybox */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE5E2B702B5711EC00DCC639 /* BearBalloon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BearBalloon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE5E2B742B5711EC00DCC639 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		EE5E2B772B5711EC00DCC639 /* BearBalloonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BearBalloonApp.swift; sourceTree = "<group>"; };
+		EE5E2B792B5711EC00DCC639 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE5E2B7B2B5711EC00DCC639 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		EE5E2B7D2B5711ED00DCC639 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE5E2B802B5711ED00DCC639 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE5E2B822B5711ED00DCC639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE5E2B882B57133500DCC639 /* Bear_On_Balloons.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Bear_On_Balloons.usdz; sourceTree = "<group>"; };
+		EE5E2B8C2B571D6500DCC639 /* studio.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = studio.skybox; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE5E2B6D2B5711EC00DCC639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5E2B762B5711EC00DCC639 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE5E2B672B5711EC00DCC639 = {
+			isa = PBXGroup;
+			children = (
+				EE5E2B722B5711EC00DCC639 /* BearBalloon */,
+				EE5E2B732B5711EC00DCC639 /* Packages */,
+				EE5E2B712B5711EC00DCC639 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE5E2B712B5711EC00DCC639 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE5E2B702B5711EC00DCC639 /* BearBalloon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE5E2B722B5711EC00DCC639 /* BearBalloon */ = {
+			isa = PBXGroup;
+			children = (
+				EE5E2B8C2B571D6500DCC639 /* studio.skybox */,
+				EE5E2B772B5711EC00DCC639 /* BearBalloonApp.swift */,
+				EE5E2B792B5711EC00DCC639 /* ContentView.swift */,
+				EE5E2B7B2B5711EC00DCC639 /* ImmersiveView.swift */,
+				EE5E2B882B57133500DCC639 /* Bear_On_Balloons.usdz */,
+				EE5E2B7D2B5711ED00DCC639 /* Assets.xcassets */,
+				EE5E2B822B5711ED00DCC639 /* Info.plist */,
+				EE5E2B7F2B5711ED00DCC639 /* Preview Content */,
+			);
+			path = BearBalloon;
+			sourceTree = "<group>";
+		};
+		EE5E2B732B5711EC00DCC639 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				EE5E2B742B5711EC00DCC639 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		EE5E2B7F2B5711ED00DCC639 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE5E2B802B5711ED00DCC639 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE5E2B6F2B5711EC00DCC639 /* BearBalloon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE5E2B852B5711ED00DCC639 /* Build configuration list for PBXNativeTarget "BearBalloon" */;
+			buildPhases = (
+				EE5E2B6C2B5711EC00DCC639 /* Sources */,
+				EE5E2B6D2B5711EC00DCC639 /* Frameworks */,
+				EE5E2B6E2B5711EC00DCC639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BearBalloon;
+			packageProductDependencies = (
+				EE5E2B752B5711EC00DCC639 /* RealityKitContent */,
+			);
+			productName = BearBalloon;
+			productReference = EE5E2B702B5711EC00DCC639 /* BearBalloon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE5E2B682B5711EC00DCC639 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					EE5E2B6F2B5711EC00DCC639 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = EE5E2B6B2B5711EC00DCC639 /* Build configuration list for PBXProject "BearBalloon" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE5E2B672B5711EC00DCC639;
+			productRefGroup = EE5E2B712B5711EC00DCC639 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE5E2B6F2B5711EC00DCC639 /* BearBalloon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE5E2B6E2B5711EC00DCC639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5E2B892B57133500DCC639 /* Bear_On_Balloons.usdz in Resources */,
+				EE5E2B812B5711ED00DCC639 /* Preview Assets.xcassets in Resources */,
+				EE5E2B7E2B5711ED00DCC639 /* Assets.xcassets in Resources */,
+				EE5E2B8D2B571D6500DCC639 /* studio.skybox in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE5E2B6C2B5711EC00DCC639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5E2B7A2B5711EC00DCC639 /* ContentView.swift in Sources */,
+				EE5E2B782B5711EC00DCC639 /* BearBalloonApp.swift in Sources */,
+				EE5E2B7C2B5711EC00DCC639 /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE5E2B832B5711ED00DCC639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		EE5E2B842B5711ED00DCC639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		EE5E2B862B5711ED00DCC639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BearBalloon/Preview Content\"";
+				DEVELOPMENT_TEAM = RSCWF39P88;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.knowselfdaily.BearBalloon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		EE5E2B872B5711ED00DCC639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BearBalloon/Preview Content\"";
+				DEVELOPMENT_TEAM = RSCWF39P88;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.knowselfdaily.BearBalloon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE5E2B6B2B5711EC00DCC639 /* Build configuration list for PBXProject "BearBalloon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE5E2B832B5711ED00DCC639 /* Debug */,
+				EE5E2B842B5711ED00DCC639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE5E2B852B5711ED00DCC639 /* Build configuration list for PBXNativeTarget "BearBalloon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE5E2B862B5711ED00DCC639 /* Debug */,
+				EE5E2B872B5711ED00DCC639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EE5E2B752B5711EC00DCC639 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EE5E2B682B5711EC00DCC639 /* Project object */;
+}
